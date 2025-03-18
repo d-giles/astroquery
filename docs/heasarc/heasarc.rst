@@ -273,7 +273,7 @@ for ``'polygon'``.
 List Catalog Columns
 --------------------
 To list the columns of some catalog, use `~astroquery.heasarc.HeasarcClass.list_columns`. Here we list the columns
-in the XMM master catalog ``xmmmaster``:
+in the Suzaku Master Catalog, ``suzamaster``:
 
 .. doctest-remote-data::
 
