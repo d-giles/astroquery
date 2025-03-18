@@ -199,7 +199,6 @@ with those results.
 The ``links`` table has three relevant columns: ``access_url``, ``sciserver`` and ``aws``.
 The first gives the url to the data from the main heasarc server. The second gives
 the local path to the data on Sciserver. The last gives the S3 URI to the data in the cloud.
-You can specify where the data are to be downloaded using the ``location`` parameter.
 
 To download the data, you can pass ``links`` table to `~astroquery.heasarc.HeasarcClass.download_data`,
 specifying from where you want the data to be fetched by specifying the ``host`` parameter. By default,
